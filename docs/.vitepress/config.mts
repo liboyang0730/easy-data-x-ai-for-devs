@@ -44,10 +44,11 @@ export default defineConfig({
       {
         items: [
           { text: '第 1 章：第 1 章的标题', link: '/chapter1/' },
-          { text: '第 2 章：第 2 章的标题', 
+          { text: '第 2 章：第 2 章的标题',
             items: [
               { text: '第 2.1 节：第 2.1 节的标题', link: '/chapter2/chapter2_1' },
-              { text: '第 2.2 节：第 2.2 节的标题', link: '/chapter2/chapter2_2' }
+              { text: '第 2.2 节：第 2.2 节的标题', link: '/chapter2/chapter2_2' },
+              { text: '第 2.3 节：第 2.3 节的标题', link: '/chapter2/chapter2_3' }
             ]
            }
         ]
