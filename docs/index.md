@@ -3,12 +3,12 @@
 layout: home
 
 hero:
-  name: "Datawhale开源教程"
-  text: "AI前沿知识开源教程"
+  name: "Easy Data X AI for Devs"
+  text: "开发者友好的数据与 AI 入门教程"
   tagline: 开始学起来吧~
   image:
     src: /learning.GIF
-    alt: Datawhale开源教程
+    alt: Easy Data X AI
   actions:
     - theme: brand
       text: 开始学习
@@ -20,26 +20,18 @@ features:
   - title: 🎁 免费
     details: 无任何形式的收费
   - title: 🌐 开源
-    details: 教程和代码源文件全部托管在GitHub
+    details: 教程和代码源文件全部托管在 GitHub
 ---
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
-    avatar: 'https://www.github.com/Sm1les.png',
-    name: 'Sm1les',
-    title: '项目负责人',
+    avatar: 'https://www.github.com/liboyang0730.png',
+    name: 'liboyang0730',
+    title: '项目维护者',
     links: [
-      { icon: 'github', link: 'https://github.com/Sm1les' },
-    ]
-  },
-  {
-    avatar: 'https://www.github.com/Sm1les.png',
-    name: '马里奥',
-    title: '核心贡献者',
-    links: [
-      { icon: 'github', link: 'https://github.com/Sm1les' },
+      { icon: 'github', link: 'https://github.com/liboyang0730' },
     ]
   }
 ]
