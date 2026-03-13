@@ -9,8 +9,8 @@ const baseConfig = isEdgeOne ? '/' : '/easy-data-x-ai/'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: "Easy Data X AI for Devs",
-  description: "开发者友好的数据与 AI 入门教程",
+  title: "Easy Data X AI",
+  description: "面向所有 AI 爱好者的 Data 与 AI 基础知识入门教程",
   base: baseConfig,
   markdown: {
     math: true
