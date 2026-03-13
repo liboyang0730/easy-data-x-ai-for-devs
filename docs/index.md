@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Easy Data X AI for Devs"
+  name: "Easy Data X AI"
   text: "开发者友好的数据与 AI 入门教程"
   tagline: 开始学起来吧~
   image:
@@ -28,10 +28,18 @@ import { VPTeamMembers } from 'vitepress/theme'
 const members = [
   {
     avatar: 'https://www.github.com/liboyang0730.png',
-    name: 'liboyang0730',
+    name: 'Zlatan(liboyang0730)',
     title: '项目维护者',
     links: [
       { icon: 'github', link: 'https://github.com/liboyang0730' },
+    ]
+  }
+    {
+    avatar: 'https://github.com/webup.png',
+    name: 'Haili Zhang(webup)',
+    title: '项目维护者',
+    links: [
+      { icon: 'github', link: 'https://github.com/webup' },
     ]
   }
 ]
