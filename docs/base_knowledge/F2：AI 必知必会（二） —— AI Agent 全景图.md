@@ -528,3 +528,7 @@ RAG、Memory、Skill、MCP 看起来是不同的技术概念，但它们都是 A
 <!-- 这是一张图片，ocr 内容为：F2你在这里 道篇PM路径 </>术篇DEV路径 P1:AI AGENT场景识别 D1:大模型AP API基础 TOOLLUSE是桥梁 立项先问数据在哪 EASY DATA X AI 下期见 -->
 ![](/images/base_knowledge/F2-14.png)
 
+
+最后，欢迎各位老师加入 Data x AI 交流群，和我们一起玩耍~
+
+![](/images/dev/D1-01.webp)
