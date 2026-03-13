@@ -43,15 +43,15 @@ export default defineConfig({
     sidebar: [
       { text: '《Easy Data X AI 课程介绍》', link: '/course-intro' },
       {
-        text: '公共基础',
+        text: '第一章：公共基础知识',
         collapsed: false,
         items: [
-          { text: 'F1：AI 必知必会（一）—— 大模型的本质与边界', link: '/chapter1/F1：AI 必知必会（一） —— 大模型的本质与边界' },
-          { text: 'F2：AI 必知必会（二）—— AI Agent 全景图', link: '/chapter1/F2：AI 必知必会（二） —— AI Agent 全景图' }
+          { text: 'F1：AI 必知必会（一）—— 大模型的本质与边界', link: '/base_knowledge/F1：AI 必知必会（一） —— 大模型的本质与边界' },
+          { text: 'F2：AI 必知必会（二）—— AI Agent 全景图', link: '/base_knowledge/F2：AI 必知必会（二） —— AI Agent 全景图' }
         ]
       },
       {
-        text: '道篇',
+        text: '第二章：道篇',
         collapsed: false,
         items: [
           { text: 'P1：AI Agent 场景识别', link: '/pm/P1' },
@@ -62,7 +62,7 @@ export default defineConfig({
         ]
       },
       {
-        text: '术篇',
+        text: '第三章：术篇',
         collapsed: false,
         items: [
           { text: 'D1：大模型 API 基础', link: '/dev/D1' },

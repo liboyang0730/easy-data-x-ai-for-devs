@@ -22,7 +22,7 @@ https://liboyang0730.github.io/easy-data-x-ai-for-devs/
 
 |  章节名   | 简介 | 状态 |
 |  ----  | ---- | ---- |
-| [第1章 xxx](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter1)  | xxx | ✅ |
+| [第1章 xxx](https://github.com/datawhalechina/repo-template/blob/main/docs/base_knowledge)  | xxx | ✅ |
 | [第2章 xxx](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter2)  | xxx | ✅ |
 | [第3章 xxx](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter3)  | xxx | ✅ |
 | 第4章  | xxx | 🚧 |
