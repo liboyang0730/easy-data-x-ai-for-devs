@@ -108,21 +108,26 @@
 
 一共 12 节课，公共基础篇 2 节 + 道篇 5 节 + 术篇 5 节。
 
-| 篇章 | 课程编号 | 上线时间 | 课程标题 |
-| --- | --- | --- | --- |
-| 共同基础篇<br/> | F1 | 3 / 23 | 大模型的本质与边界 |
-| | F2 | 3 / 30 | AI Agent 的完整图景 |
-| 道篇 | P1 | 4 / 8 | 找准 Agent 的用武之地 —— AI Agent 场景识别 |
-| | P2 | 4 / 15 | 让 Agent 会查资料 —— RAG 产品设计 |
-| | P3 | 4 / 22 | 让 Agent 真正记住你 —— 记忆系统设计 |
-| | P4 | 4 / 29 | 把经验变可复用 —— Skill 与知识管理 |
-| | P5 | 5 / 11 | 用数据验证价值 —— 案例与度量 |
-| 术篇（开发者） | D1 | 4 / 13 | 打通 Agent 与数据 —— 大模型 API 入门 |
-| | D2 | 4 / 20 | 一个系统搞定 —— 统一 AI Native 数据层实战 |
-| | D3 | 4 / 27 | 实践出真知 —— Agentic RAG 实战 |
-| | D4 | 5 / 6 | 记哪些、忘哪些？—— Agent 记忆系统开发 |
-| | D5 | 5 / 13 | 授 AI 以渔 —— 综合实战，从 Skill 开发到 MCP 标准化 |
-| 结营仪式 |  | 5 /20 | 结营仪式 |
+<table>
+  <thead>
+    <tr><th>篇章</th><th>课程编号</th><th>上线时间</th><th>课程标题</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">公共基础篇</td><td>F1</td><td>3 / 23</td><td>大模型的本质与边界</td></tr>
+    <tr><td>F2</td><td>3 / 30</td><td>AI Agent 的完整图景</td></tr>
+    <tr><td rowspan="5">道篇</td><td>P1</td><td>4 / 8</td><td>找准 Agent 的用武之地 —— AI Agent 场景识别</td></tr>
+    <tr><td>P2</td><td>4 / 15</td><td>让 Agent 会查资料 —— RAG 产品设计</td></tr>
+    <tr><td>P3</td><td>4 / 22</td><td>让 Agent 真正记住你 —— 记忆系统设计</td></tr>
+    <tr><td>P4</td><td>4 / 29</td><td>把经验变可复用 —— Skill 与知识管理</td></tr>
+    <tr><td>P5</td><td>5 / 11</td><td>用数据验证价值 —— 案例与度量</td></tr>
+    <tr><td rowspan="5">术篇</td><td>D1</td><td>4 / 13</td><td>打通 Agent 与数据 —— 大模型 API 入门</td></tr>
+    <tr><td>D2</td><td>4 / 20</td><td>一个系统搞定 —— 统一 AI Native 数据层实战</td></tr>
+    <tr><td>D3</td><td>4 / 27</td><td>实践出真知 —— Agentic RAG 实战</td></tr>
+    <tr><td>D4</td><td>5 / 6</td><td>记哪些、忘哪些？—— Agent 记忆系统开发</td></tr>
+    <tr><td>D5</td><td>5 / 13</td><td>授 AI 以渔 —— 综合实战，从 Skill 开发到 MCP 标准化</td></tr>
+    <tr><td>结营仪式</td><td></td><td>5 / 20</td><td>结营仪式</td></tr>
+  </tbody>
+</table>
 
 ## 洞察先行，自然跟随
 《Easy Data x AI》的核心哲学是“洞察先行”，每一节课程都力求传递一个核心洞察。我们希望这些凝练的观点，能成为您认知工具箱里的一部分。
