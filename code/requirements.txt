@@ -12,4 +12,4 @@ python-dotenv>=1.0.0
 pyseekdb>=0.1.0
 
 # Agent 相关（可选，用于 d1_6）
-langchain-agents>=0.1.0
+langgraph>=0.2.0
