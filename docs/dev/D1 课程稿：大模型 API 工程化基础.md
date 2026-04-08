@@ -107,7 +107,6 @@ print(response.content)
 
 看到了吗？模型没有"记忆"。所谓的对话历史，全靠你自己维护这个消息列表。每次调用，你都要把完整的历史传过去。这正是 F1 讲过的"上下文窗口"在工程层面的体现——你能传多少历史消息，取决于窗口能装多少 Token。
 
----
 
 ## 第二部分：Streaming——为什么生产环境几乎都用流式输出
 ### 等 30 秒 vs 立刻开始看
@@ -156,7 +155,6 @@ print()  # 最后换行
 > 本期课程中的代码仅为演示，多用 invoke/stream。生产环境中，默认使用异步方式的 ainvoke/astream。
 >
 
----
 
 ## 第三部分：Tool Use——让模型从"只能说"变成"能做事"
 这是今天最重要的部分。前面讲的 API 调用和 Streaming 是基础设施；Tool Use 才是让 AI 产生质变的机制。
@@ -341,7 +339,6 @@ if response.tool_calls:
 
 **代码连接的是管道，数据才是水。管道再精良，没水也白搭。**
 
----
 
 ## 这节课要留下的印象
 如果这节课的所有内容你只记住一段话，记住这段：
@@ -502,7 +499,6 @@ python3 d1_6_agent.py
 
 一个调试小技巧：如果模型没有调用工具而是直接回答了，八成是你的工具 docstring 写得不够清晰——模型不知道什么时候该用它。试着把描述写得更具体，明确告诉模型"在什么情况下使用这个工具"。
 
----
 
 ## 延伸阅读
 如果你对本期提到的概念想做进一步了解，以下是一些推荐资源：
@@ -511,7 +507,6 @@ python3 d1_6_agent.py
 + **LangChain Tool Calling 指南**：[Tool Calling with LangChain](https://blog.langchain.com/tool-calling-with-langchain/)，LangChain 官方博客，详细介绍了 `bind_tools`、`tool_calls`、`@tool` 装饰器的标准用法
 + **OpenAI Function Calling 文档**：[Function Calling Guide](https://platform.openai.com/docs/guides/function-calling)，了解底层的工具调用协议，有助于理解 LangChain 在背后做了什么封装
 
----
 
 > **下期预告**：
 >
