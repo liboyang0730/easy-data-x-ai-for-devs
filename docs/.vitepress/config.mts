@@ -54,7 +54,7 @@ export default defineConfig({
         text: '第二章：道篇',
         collapsed: false,
         items: [
-          { text: 'P1：AI Agent 场景识别', link: '/pm/P1' },
+          { text: 'P1：AI Agent 场景识别', link: '/pm/P1 课程稿：AI Agent 场景识别' },
           { text: 'P2：Agentic RAG 产品设计', link: '/pm/P2' },
           { text: 'P3：Agent 记忆系统设计', link: '/pm/P3' },
           { text: 'P4：Skill 与知识管理', link: '/pm/P4' },
@@ -65,7 +65,7 @@ export default defineConfig({
         text: '第三章：术篇',
         collapsed: false,
         items: [
-          { text: 'D1：大模型 API 基础', link: '/dev/D1' },
+          { text: 'D1：大模型 API 基础', link: '/dev/D1 课程稿：大模型 API 工程化基础' },
           { text: 'D2：AI 应用的数据层', link: '/dev/D2' },
           { text: 'D3：Agentic RAG 实战', link: '/dev/D3' },
           { text: 'D4：Agent 开发与记忆系统', link: '/dev/D4' },
