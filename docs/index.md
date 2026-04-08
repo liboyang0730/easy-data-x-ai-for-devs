@@ -37,7 +37,7 @@ const members = [
   {
     avatar: 'https://github.com/webup.png',
     name: 'Haili Zhang(webup)',
-    title: '项目维护者',
+    title: '项目共建者',
     links: [
       { icon: 'github', link: 'https://github.com/webup' },
     ]
