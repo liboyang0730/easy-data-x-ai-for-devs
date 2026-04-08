@@ -24,7 +24,7 @@
 **AI 产品的能力上限 = 数据质量 * 模型能力**。
 
 <!-- 这是一张图片，ocr 内容为：AI能力上限 准确 -数据质量X模型能力 实时 针对性 -->
-![](/images/base_knowledge/F1/F1-01.png)
+![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/base_knowledge/F1/F1-01.png)
 
 
 
@@ -40,7 +40,7 @@
 接下来我们简单聊下大模型的三个根本局限：**幻觉、知识截止、个人化盲区。**
 
 <!-- 这是一张图片，ocr 内容为：知识截止 个性化盲区 幻觉 (回答太泛) (编造事实) (信息过时) 同一个根因 只有训练数据 没有你的数据 补数据>换模型 -->
-![](/images/base_knowledge/F1/F1-02.png)
+![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/base_knowledge/F1/F1-02.png)
 
 ## 大模型为什么会“说谎”？
 ### 幻觉：听起来对，但查无此事
@@ -68,7 +68,7 @@
 3. **问题所在**：模型生成的是“听起来合理的文字”，而非“经过验证的答案”
 
 <!-- 这是一张图片，ocr 内容为：天空是什么颜色? 大模型 . 检索事实 预测下一个词 实际: 美 此刻是灰色 蓝色灰色黑色 输出:蓝色的(听起来对,但查无此事) -->
-![](/images/base_knowledge/F1/F1-03.png)
+![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/base_knowledge/F1/F1-03.png)
 
 大模型就像这样——它知道“天空通常是蓝色的”（训练数据中的统计规律），但它不知道“此刻窗外的天空是什么颜色”（你的实时数据）。
 
@@ -90,7 +90,7 @@
 
 ## 大模型不知道的那些事
 <!-- 这是一张图片，ocr 内容为：知识截止与个性化盲区 知识截止 AI无法访问 AI无法访问 水 实时数据 个性化盲区 训练数据 PERSONALIZATION BLIND SPOT REAL-TIME DATA TRAINING DATA -->
-![](/images/base_knowledge/F1/F1-04.png)
+![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/base_knowledge/F1/F1-04.png)
 
 ### 知识截止：它活在过去
 每个大模型都有一个**知识截止日期**（Knowledge Cutoff）。这个日期意味着：在这之后发生的事情，它完全不知道。
@@ -151,7 +151,7 @@
 + 个性化盲区 → 给模型提供用户数据和业务数据（后续课程的记忆系统模块会展开）。
 
 <!-- 这是一张图片，ocr 内容为：幻觉缺少事实数据->提供知识库 RAG 知识截止-缺少实时数据-接入数据源 个性化盲区缺少用户数据-S建立记忆系统 -->
-![](/images/base_knowledge/F1/F1-05.png)
+![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/base_knowledge/F1/F1-05.png)
 
 
 
@@ -236,7 +236,7 @@ AI 的能力上限 = 数据质量 × 模型能力
 想象你在读一份很长的报告，但你的桌子只能摊开 20 页纸。如果报告有 100 页，你一次只能看其中的 20 页——要看后面的内容，就必须把前面的纸挪走。
 
 <!-- 这是一张图片，ocr 内容为： -->
-![](/images/base_knowledge/F1/F1-06.webp)
+![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/base_knowledge/F1/F1-06.webp)
 
 大模型面临着完全相同的限制。它有一个“**上下文窗口**”（Context Window），决定了它一次能处理多少 Token。目前主流大模型的上下文窗口大小：
 
