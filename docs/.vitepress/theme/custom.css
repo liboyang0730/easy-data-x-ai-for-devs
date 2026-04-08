@@ -432,3 +432,46 @@ td {
   width: 10%;
   /* 强制均匀分配宽度 */
 }
+
+/* ============================================================================
+   首页按钮样式 - 放大一倍
+   ============================================================================ */
+
+/* 首页 Hero 区域的按钮容器 */
+.VPHero .actions {
+  margin-top: 2rem;
+}
+
+/* 首页 Hero 区域的按钮 - 放大一倍 */
+.VPHero .VPButton {
+  font-size: 1.2rem !important;          /* 原本约 0.9rem，放大约 1.3 倍 */
+  padding: 1.2rem 2.4rem !important;     /* 原本约 0.75rem 1.5rem，放大约 1.5 倍 */
+  border-radius: 24px !important;         /* 圆角也相应增大 */
+  font-weight: 600 !important;
+  letter-spacing: 0.02em !important;
+}
+
+/* 品牌按钮（主要按钮）特殊样式 */
+.VPHero .VPButton.brand {
+  font-size: 1.4rem !important;          /* 主要按钮再大一点 */
+  padding: 1.4rem 2.8rem !important;
+}
+
+/* 按钮悬停效果增强 */
+.VPHero .VPButton:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* 移动端响应式 - 小屏幕上不要太大 */
+@media (max-width: 768px) {
+  .VPHero .VPButton {
+    font-size: 1rem !important;
+    padding: 1rem 2rem !important;
+  }
+
+  .VPHero .VPButton.brand {
+    font-size: 1.1rem !important;
+    padding: 1.1rem 2.2rem !important;
+  }
+}
