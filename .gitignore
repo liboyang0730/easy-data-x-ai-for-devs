@@ -10,3 +10,9 @@ docs/.vitepress/cache
 
 # macOS 系统文件
 .DS_Store
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
